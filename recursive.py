@@ -5,7 +5,7 @@ calculate 5 times needs to use for
 """
 a=4
 print(a)
-for i in range(1,6):
+for i in range(1,5):
     a=a*2+3
     print(a)
 
