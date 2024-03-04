@@ -16,8 +16,8 @@ a=1
 while density<0.9:
     density*=2
     a+=1
-    print(f'the cell density on day {a} is {density})
-print(f"Cell density does not exceed 0.9 until day {a} and will exceed from day {a+1} onwards")
+    print(f'the cell density on day {a} is {density}')
+print(f"Cell density does not exceed 0.9 until day {a-1} and will exceed from day {a} onwards")
 
 
 
